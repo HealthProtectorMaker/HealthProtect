@@ -77,6 +77,8 @@ namespace 응소실팀플
             }
             streamWriter.Flush();
             fs.Close();
+            
+            MessageBox.Show("저장 완료");
         }
     }
 }
