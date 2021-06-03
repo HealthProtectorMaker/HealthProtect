@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2181FE83-32D9-4264-9B1D-D5D4FBA8B877}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>응소실팀플</RootNamespace>
-    <AssemblyName>응소실팀플</AssemblyName>
+    <RootNamespace>건강관리</RootNamespace>
+    <AssemblyName>건강관리</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -119,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
