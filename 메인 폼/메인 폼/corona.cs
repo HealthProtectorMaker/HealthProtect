@@ -125,11 +125,20 @@ namespace 메인_폼
             else
             {
                 if (breathe == true || temperature == true || ck >= 7)
+                {
                     MessageBox.Show("38℃이상의 고열이 지속되거나 증상이 심해질 경우 콜센터(☏ 1339, 지역번호+120)또는 관할보건소에 문의하고 선별진료소 방문 후 진료받기 등 안내에 따라 주시기 바랍니다.", "안내문");
+                    this.Close();
+                }
                 else if (ck >= 5)
+                {
                     MessageBox.Show("해당 증상들이 없어질 때까지 가정에서 예방수칙을 준수하고 충분한 휴식을 취하시기 바랍니다.", "안내문");
+                    this.Close();
+                }
                 else
+                {
                     MessageBox.Show("코로나19예방을 위한 자가진단 설문결과 의심 증상에 해당되는 항목이 없습니다.", "안내문");
+                    this.Close();
+                }
             }
         }
 
