@@ -56,6 +56,9 @@ namespace 응소실팀플
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox3.Text == "" || textBox4.Text == "")
+                MessageBox.Show("체온 및 수면시간을 입력해주세요.", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                
             string path = string.Format(@"c:\member\{0}.txt", textBox3.Text);
             FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write);
             StreamWriter streamWriter = new StreamWriter(fs, System.Text.Encoding.Default);
