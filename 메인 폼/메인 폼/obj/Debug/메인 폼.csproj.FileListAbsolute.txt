@@ -1,0 +1,12 @@
+C:\Users\고정원\source\repos\메인 폼\메인 폼\bin\Debug\메인 폼.exe.config
+C:\Users\고정원\source\repos\메인 폼\메인 폼\bin\Debug\메인 폼.exe
+C:\Users\고정원\source\repos\메인 폼\메인 폼\bin\Debug\메인 폼.pdb
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인 폼.csprojAssemblyReference.cache
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인_폼.Home.resources
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인_폼.Properties.Resources.resources
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인_폼.spec.resources
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인 폼.csproj.GenerateResource.cache
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인 폼.csproj.CoreCompileInputs.cache
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인 폼.exe
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인 폼.pdb
+C:\Users\고정원\source\repos\메인 폼\메인 폼\obj\Debug\메인_폼.corona.resources
