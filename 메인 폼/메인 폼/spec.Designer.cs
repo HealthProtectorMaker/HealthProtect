@@ -52,7 +52,7 @@ namespace 메인_폼
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "이름";
+            this.label1.Text = "나이";
             // 
             // textBox1
             // 
