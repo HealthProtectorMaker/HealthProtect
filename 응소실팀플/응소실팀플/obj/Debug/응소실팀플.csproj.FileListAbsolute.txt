@@ -1,0 +1,16 @@
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\bin\Debug\응소실팀플.exe.config
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\bin\Debug\응소실팀플.exe
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\bin\Debug\응소실팀플.pdb
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.csprojAssemblyReference.cache
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form1.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Properties.Resources.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.csproj.GenerateResource.cache
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.csproj.CoreCompileInputs.cache
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.exe
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.pdb
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form2.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form3.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form4.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form5.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form6.resources
+C:\Users\고정원\source\repos\응소실팀플\응소실팀플\obj\Debug\응소실팀플.Form7.resources

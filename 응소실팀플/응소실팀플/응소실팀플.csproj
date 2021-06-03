@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2181FE83-32D9-4264-9B1D-D5D4FBA8B877}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>건강관리</RootNamespace>
+    <AssemblyName>건강관리</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="healthcheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="healthcheck.Designer.cs">
+      <DependentUpon>healthcheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skin.Designer.cs">
+      <DependentUpon>skin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="energy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="energy.Designer.cs">
+      <DependentUpon>energy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="biotics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="biotics.Designer.cs">
+      <DependentUpon>biotics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stomach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stomach.Designer.cs">
+      <DependentUpon>stomach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fem.Designer.cs">
+      <DependentUpon>fem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sleep.Designer.cs">
+      <DependentUpon>sleep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="healthcheck.resx">
+      <DependentUpon>healthcheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skin.resx">
+      <DependentUpon>skin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="energy.resx">
+      <DependentUpon>energy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="biotics.resx">
+      <DependentUpon>biotics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stomach.resx">
+      <DependentUpon>stomach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fem.resx">
+      <DependentUpon>fem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sleep.resx">
+      <DependentUpon>sleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
